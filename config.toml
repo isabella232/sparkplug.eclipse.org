@@ -21,9 +21,9 @@ pluralizeListTitles = false
   gcse = "011805775785170369411:p3ec0igo0qq"
   js = "js/solstice.js"
   header_wrapper_class = " featured-section-darken header-default-bg-img"
-  logo_width = "260"
+  logo_width = "210"
   header_left_classes = "col-sm-7"
-  main_menu_wrapper_classes = "col-sm-17 margin-top-10"
+  main_menu_wrapper_classes = "col-sm-17 margin-top-25"
   
 [taxonomies]
   category = "categories"
