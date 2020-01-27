@@ -1,6 +1,6 @@
 # sparkplug.eclipse.org
 
-The [https://eclipsefdn-sparkplug.netlify.com](https://eclipsefdn-sparkplug.netlify.com) website is generated with [Hugo](https://gohugo.io/documentation/). This project is a work in progress. 
+The [https://sparkplug.eclipse.org](https://sparkplug.eclipse.org) website is generated with [Hugo](https://gohugo.io/documentation/). This project is a work in progress. 
 
 The Eclipse Sparkplug Working Group seeks to drive the evolution and broad adoption of the Eclipse Sparkplug protocol and related technologies that enable the creation of open, collaborative, and interoperable Industrial IoT (IIoT) solutions.
 
