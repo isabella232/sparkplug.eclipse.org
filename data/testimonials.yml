@@ -8,14 +8,14 @@ items:
     alt: "Canary Labs"
     logo_width: 90
 
-  -
-    name: Todd Anslinger
-    title: Lead, IIoT Center Of Excellence 
-    company: Chevron
-    text: 
-    logo: /images/sparkplug/members/chevron-corporation.svg
-    alt: "Chevron"
-    logo_width: 90
+#  -
+#    name: Todd Anslinger
+#    title: Lead, IIoT Center Of Excellence 
+#    company: Chevron
+#    text: 
+#    logo: /images/sparkplug/members/chevron-corporation.svg
+#    alt: "Chevron"
+#    logo_width: 90
 
   -
     name: Arlen Nipper

@@ -11,7 +11,7 @@ pluralizeListTitles = false
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
-  description = "The Eclipse Sparkplug Working Group seeks to drive the evolution and broad adoption of the Eclipse Sparkplug protocol and related technologies that enable the creation of open, collaborative, and interoperable Industrial IoT (IIoT) solutions that are based on MQTT."
+  description = "The Eclipse Sparkplug Working Group seeks to drive the evolution and adoption of the Eclipse Sparkplug protocol and related MQTT-based technologies that enable the creation of open, collaborative, interoperable, and scalable Industrial IoT (IIoT) solutions and provide support for Industry 4.0."
   seo_title_suffix = " | The Eclipse Foundation"
   keywords = ["Internet of Things", "Industrial Internet of Things", "MQTT", "Interoperability", "Sparkplug", "specification", "Sparkplug Specification", "protocol", "Sparkplug Procotol", "open source"]
   logo = "images/sparkplug/sparkplug-logo-white-no-tagline.svg"
