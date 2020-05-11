@@ -18,7 +18,7 @@ items:
     bgImgSrc: /images/sparkplug/footer/mailing-list-image.jpg
     footer_classes: featured-section featured-section-darken text-center featured-story-survey
     content: <div class="divider">May 11 to June 26</div>
-    link: <a class="btn btn-primary btn-lg" href="https://www.surveymonkey.com/r/JX27BPP">Take the Survey</a>
+    link: <a class="btn btn-primary btn-lg" href="https://www.surveymonkey.com/r/NSLQWF2">Take the Survey</a>
     startDate: 2020-05-11
     endDate: 2020-06-27
     type: footer
