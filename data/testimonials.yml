@@ -8,14 +8,14 @@ items:
     alt: "Canary Labs"
     logo_width: 90
 
-#  -
-#    name: Todd Anslinger
-#    title: Lead, IIoT Center Of Excellence 
-#    company: Chevron
-#    text: 
-#    logo: /images/sparkplug/members/chevron-corporation.svg
-#    alt: "Chevron"
-#    logo_width: 90
+  -
+    name: Todd Anslinger
+    title: Lead, IIoT Center Of Excellence 
+    company: Chevron
+    text:  The features that the Sparkplug specification offers are required if we want to safely operate our facilities using a publisher/subscriber architecture. Having the Eclipse Foundation manage this open protocol is essential if we want vendors to adopt it! Being a strategic member means that we can contribute to the specification and not have to manage our own proprietary one.
+    logo: /images/sparkplug/members/chevron-corporation.svg
+    alt: "Chevron"
+    logo_width: 90
 
   -
     name: Arlen Nipper
