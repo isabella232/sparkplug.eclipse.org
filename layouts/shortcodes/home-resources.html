@@ -1,0 +1,15 @@
+<div class="news-list-col margin-bottom-40">
+  <h2 class="heading-line">
+    <span>Sparkplug Resources</span>
+  </h2>
+  {{ range first 3 (where .Page.Site.RegularPages "Section" "resources").ByDate.Reverse }} 
+    <div class="row">
+      <div class="col-sm-5"><i data-feather="{{ lower .Parent.Params.icon }}" stroke-width="1"></i></div>
+      <div class="col-sm-19">
+        <h3><a target="_blank" href="{{ .Params.link }}">{{.Title}}</a></h3>
+        <p>{{.Content | safeHTML | truncate 140}}</p>
+      </div>
+    </div>
+  {{ end }}
+  <p class="text-center"><a href="/resources">View All Resources</a></p>
+</div>

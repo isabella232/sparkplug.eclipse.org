@@ -15,22 +15,30 @@
 @import '_variables.less';
 @import 'transient.less';
 
+@import '~eclipsefdn-solstice-assets/less/_components/quicksilver/resources-group.less';
+
+h2, h3 {
+  margin-top:30px;
+}
+
 #header-wrapper{
   background-size:cover;
   background-image: url('images/jumbotron-image.jpg');
   background-position: 0 100%;
   .featured-jumbotron{
     padding-top:48px;
+    color:@text-color;
   }
 }
 
-.btn-primary{
-  .btn-warning;
+#main-menu {
+  margin-right:15px;
 }
 
 .btn{
-  border: none;
+  text-transform:uppercase;
 }
+
 .logo-eclipse-default{
   padding-top:9px;
 }
@@ -66,21 +74,20 @@
 }
 
 .featured-section{
-  padding: 60px 0 60px 0;
+  padding: 60px 0 50px 0;
   background-position: 0 100%;
   font-size:19px;
   h2{
     font-size: 34px;
-    margin-bottom: 20px;
-    color: @brand-primary;
+    margin-bottom: 40px;
+    color: #404047;
     margin-top:0;
     text-transform: uppercase;
   }
   p{
     margin-bottom:20px;
-    &:last-child{
-      margin-bottom:0;
-    }
+    font-weight:300;
+    color: #404047;
   }
   .feather {
     width: 40px;
@@ -98,15 +105,49 @@
 
 .featured-section-testimonials{
   background-size:cover;
-  background-image: url('images/testimonial-image.jpg');
+  background-color: @brand-primary;
   background-position: 0 100%;
+  h2, p {
+    color:@white;
+  }
+  p {
+    text-align:left;
+    color:@white;
+    font-size:24px;
+    font-weight:200;
+  }
+  p:first-child {
+    padding-top:20px;
+  }
+  .featured-section-testimonials-container {
+    margin-bottom:50px;
+  }
+  .featured-section-testimonials-image {
+    width: 190px;
+    height: 190px;
+    border-radius: 150px;
+    overflow: hidden;
+    img {
+      margin: 0 auto;
+      display: inline-block;
+      width:190px;
+    }
+  }
+  
+  @media (max-width: @screen-xs-max) {
+    img, .featured-section-testimonials-image {
+      margin:0 auto;
+    }
+    p{
+      text-align:center;
+    }
+  }
 }
 
 .featured-section-members {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  background-color:#efefef;
   li {
-   padding:10px;
+    margin:0 40px 60px;
   }  
 }
 
@@ -177,3 +218,135 @@
   background-image: url('images/mailing-list-image.jpg'); 
   background-size: cover;
 }
+
+
+
+// News Styles
+
+.featured-section-diagrams {
+  text-align:center;
+  padding:60px 0;
+  background-color:@white;
+  h2, h3{
+    text-transform:uppercase;
+  }
+}
+
+.featured-section-diagrams-text {
+  margin-bottom:20px;
+}
+
+.featured-section-diagrams-img{
+  max-height:120px;
+}
+
+.featured-section-testimonials-single {
+  background-color:@brand-primary;
+  color:@white;
+}
+
+.featured-section-testimonials-single-image {
+  display:block;
+  width:210px;
+  height:210px;
+  border-radius:105px;
+  overflow:hidden;
+}
+
+.featured-section-join-us {
+  background-color:@brand-primary;
+  padding:60px 0 30px;
+  p {
+    color:@white;
+    font-size:24px;
+    margin-bottom:30px;
+  }
+  .btn-secondary{
+    background-color:#171717;
+    border-color:#171717;
+    color:@white;
+    min-width: 150px;
+  }
+}
+
+.featured-section-book {
+  padding:60px 0;
+  p {
+    font-size:24px;
+    text-align:right;
+    font-weight:200;
+  }
+  
+  @media (min-width: @screen-sm-min) {
+    .featured-section-book-content {
+      padding-top:100px;
+    }
+  }
+
+  @media (max-width: @screen-xs-max) {
+    p {
+      text-align:center;
+    }
+  }
+}
+
+
+
+.featured-section-contact-form {
+  .featured-section-contact-form-image {
+    max-height: 205px;
+    margin-bottom: 50px;
+  }
+}
+
+
+.featured-section-news {
+  background-color:#efefef;
+  padding:60px 0;
+  font-size:14px;
+  h2 {
+    color:@text-color;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform:uppercase;
+  }
+  .heading-line {
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+  p{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 200;
+    &:first-child {
+      font-size:12px;
+      margin-bottom:10px;
+      color:@text-color;
+    }
+  }
+  h3 {
+    margin-top:0px;
+    a {
+      color:@text-color;
+    }
+  }
+  .eclipsefdn-news-list-body {
+    margin-bottom:30px;
+  }
+  .feather {
+    width: 60px;
+    height: 60px;
+    color: @brand-secondary;
+  }
+}
+
+.featured-section-events {
+  text-align:center;
+  h2 {
+    text-align:center;
+  }
+}
+
+
